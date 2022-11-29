@@ -12,12 +12,14 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    border: 1px solid white;
     
 }
 a{
     text-decoration: none;
-    color: black;
+    color: grey;
     padding: 20px;
+    font-weight: lighter;
 }
 a:hover{
     color: indigo;
@@ -43,6 +45,81 @@ input {
     position: relative;
     top: 2px;
  }
- #shopping-cart {
+.section_1 img {
+padding: 2px 100px;
+}
+.container-1 {
+    border: 1px solid #ffff;
+    max-width: 350px;
+    background-color: #ffffff;
+   padding: 10px 5px;
+   position: relative;
+   bottom: 300px;
+   left: 200px;
+
+}
+.container-1 p {
+    font-size: larger;
+}
+.container_2 {
+    margin-left: 100px;
+    margin-top: 1px;
+    position: relative;
+    bottom: 160px;
+}
+.container_2 h2 {
+            font-size: 40px;
+            margin-left: 30px;
+            position: relative;
+            bottom: 45px;
+}
+.container_2 p {
+    font-size: 25px;
+    position: relative;
+    bottom: 60px;
+    left: 35px;
+}
+.container_3 {
+    display: flex;
+    position: relative;
+    bottom: 230px;
+    left: 135px;
+    font-weight: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+
+
+}
+.container_3 a:hover {
     color: black;
- }
+}
+.container_4 h2 {
+        font-weight: bold;
+}
+.container_4 button {
+    background-color: #ffffff;
+    height: 40px;
+    width: 140px;
+   font-weight: bold;
+}
+.container_5 {
+    display: flex;
+}
+.section2 {
+    border: 1px solid black;
+    margin: 30px;
+    padding: 35px;
+}
+.section_6 {
+   display: flex;
+   justify-content: space-between;
+}
+.container_7{
+    display: flex;
+}
+.container_8 {
+    display:flex;
+ 
+
+
+}
