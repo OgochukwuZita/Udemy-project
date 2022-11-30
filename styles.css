@@ -117,9 +117,57 @@ padding: 2px 100px;
 .container_7{
     display: flex;
 }
-.container_8 {
+.grid-container {
     display:flex;
- 
-
-
 }
+.Featured-topics a {
+    text-decoration:none;
+    color: indigo;
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+.instructor {
+    display: flex;
+    justify-content: center;
+    
+}
+.great-teams {
+    text-align: center;
+}
+.business {
+    display: flex;
+    justify-content: center;
+}
+.education {
+    display: flex;
+    justify-content: center;
+}
+footer {
+   
+    background-color: #101518;
+   }
+   footer a {
+    color: #ffff;
+   }
+   .faq {
+    display: flex;
+   }
+   footer p{
+    color: grey;
+    text-align: right;
+   }
+   .button {
+    text-align: right;
+    color: #ffffff;
+    position: relative;
+    bottom: 220px;
+   }
+
+
